@@ -1,0 +1,34 @@
+<html lang="zn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>React.JS Demo</title>
+  
+</head>
+
+<body>
+  <div id="root"></div>
+  
+  <div id="like_button_container"></div>
+  
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  
+  <script>
+    ReactDOM.render(
+      React.createElement("h1", null, "Hello, world!"),
+      document.getElementById('root')
+    );
+  </script>
+
+  <script>
+    ReactDOM.render(
+      React.createElement("b", null, "react-dom2!"),
+      document.getElementById('like_button_container')
+    );
+  </script>
+
+</body>
+
+</html>
