@@ -1,4 +1,7 @@
 app/node_modules
-
 app/build
+
+
+start/node_modules
+start/build
 
