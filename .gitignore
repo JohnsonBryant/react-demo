@@ -1,3 +1,8 @@
+electron-react
+electron-react/node_modules
+electron-react/build
+
+
 app/node_modules
 app/build
 
