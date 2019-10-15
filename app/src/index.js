@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Events from './components/Events'
+import List from './components/List'
 
 ReactDOM.render(
-  <Events.ToggleApp />, 
+  <List.BlogApp />, 
   document.getElementById('root')
 )

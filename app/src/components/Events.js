@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
 function ActionLink() {
   function handleClick(e) {
@@ -8,7 +7,7 @@ function ActionLink() {
   }
 
   return (
-    <a href="#" onClick={handleClick}>
+    <a href="https://cn.bing.com" onClick={handleClick}>
       Click me
     </a>
   )
