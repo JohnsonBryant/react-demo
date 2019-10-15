@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import List from './components/List'
+import StateUp from './components/StateUp'
 
 ReactDOM.render(
-  <List.BlogApp />, 
+  <StateUp.Calculator1 />, 
   document.getElementById('root')
 )
