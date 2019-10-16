@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import StateUp from './components/StateUp'
+import SearchApp from './components/SearchApp'
 
 ReactDOM.render(
-  <StateUp.Calculator1 />, 
+  <SearchApp.SearchApp />, 
   document.getElementById('root')
 )
